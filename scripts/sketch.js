@@ -12,7 +12,7 @@ function setup(){
     canvasSetup();
     setInterval(()=>{
         background(0);
-    }, 15000);
+    }, 16000);
 }
 
 function canvasSetup(){

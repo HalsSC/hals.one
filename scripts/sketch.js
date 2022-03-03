@@ -2,7 +2,7 @@ var canvas;
 
 function windowResized() {
     resizeCanvas(document.documentElement.scrollWidth, document.documentElement.scrollHeight);
-    background(0);
+    background(255);
 }
 
 function setup(){
@@ -11,12 +11,12 @@ function setup(){
     canvas.style('z-index', '-1');
     canvasSetup();
     setInterval(()=>{
-        background(0);
+        background(255);
     }, 16000);
 }
 
 function canvasSetup(){
-    background(0);
+    background(255);
     noStroke();
 }
 
